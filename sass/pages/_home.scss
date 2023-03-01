@@ -1,0 +1,32 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__principal {
+    color: rgb(12, 1, 1);
+    font-size: 10rem;
+  }
+
+  .balance {
+    grid-column: 1 / span 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .balance__label {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: -0.2rem;
+  }
+
+  .balance__date {
+    font-size: 2.4rem;
+    color: #ffffff;
+    text-align: center;
+  }
+}
