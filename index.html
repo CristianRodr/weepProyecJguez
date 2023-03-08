@@ -1,37 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Title</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="title contenedor">
-      <h1 class="title__principal">Simulador</h1>
+    <script type="text/JavaScript" src=" https://MomentJS.com/downloads/moment.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="module" defer src="js/script.js"></script>
 
-      <div class="balance">
+</head>
+<body>
+<div class="title contenedor">
+    <h1 class="title__principal">Simulador</h1>
+
+    <div class="balance">
         <div>
-          <p class="balance__label">Línea de tiempo</p>
-          <p class="balance__date">
-            <span class="date">05/03/2037</span>
-          </p>
+            <p class="balance__label">Línea de tiempo</p>
+            <p class="balance__date">
+                <span class="date">05/03/2037</span>
+            </p>
         </div>
-      </div>
     </div>
+</div>
 
+<div class="formulario">
+    <form class="form">
+        <input type="text" name="ciudad" placeholder="ciudad"/><br/>
+    </form>
+</div>
+<h4 class="card__region">Region</h4>
+<div class="control">
     <div class="cards">
-      <article class="card">
-        <div class="card__data">
-          <figure></figure>
-          <h4 class="card__region">REGION</h4>
-          <p class="card__row"><span>📉</span>min</p>
-          <p class="card__row"><span>📈</span>max</p>
+        <!--<div class="paragrafo">
+            <p class="card__row card-diatexto">lunes</p>
+            <p class="card__row card-fecha">fecha</p>
+            <p class="card__row"><span class="card-tem">0</span> tem</p>
+            <p class="card__row"><span class="min">0</span> min</p>
+            <p class="card__row"><span class="max">0</span> max</p>
+            &lt;!&ndash;<p class="card__row"><span class="card-tem">${main.temp}</span> tem</p>
+            <p class="card__row"><span class="humedad">0</span> humedad</p>
+            <p class="card__row"><span class="velocidad">0</span> velociad del viento</p>
+            <p class="card__row"><span class="presion">0</span> Presión atmosférica</p>&ndash;&gt;
         </div>
-      </article>
+        <div class="paragrafo">
+            <p class="card__row card-diatexto">lunes</p>
+            <p class="card__row card-fecha">fecha</p>
+            <p class="card__row"><span class="card-tem">0</span> tem</p>
+            <p class="card__row"><span class="min">0</span> min</p>
+            <p class="card__row"><span class="max">0</span> max</p>
+            &lt;!&ndash;<p class="card__row"><span class="humedad">0</span> humedad</p>
+            <p class="card__row"><span class="velocidad">0</span> velociad del viento</p>
+            <p class="card__row"><span class="presion">0</span> Presión atmosférica</p>&ndash;&gt;
+        </div>
+        <div class="paragrafo">
+            <p class="card__row card-diatexto">lunes</p>
+            <p class="card__row card-fecha">fecha</p>
+            <p class="card__row"><span class="card-tem">0</span> tem</p>
+            <p class="card__row"><span class="min">0</span> min</p>
+            <p class="card__row"><span class="max">0</span> max</p>
+            &lt;!&ndash;<p class="card__row"><span class="humedad">0</span> humedad</p>
+            <p class="card__row"><span class="velocidad">0</span> velociad del viento</p>
+            <p class="card__row"><span class="presion">0</span> Presión atmosférica</p>&ndash;&gt;
+        </div>
+        <div class="paragrafo">
+            <p class="card__row card-diatexto">lunes</p>
+            <p class="card__row card-fecha">fecha</p>
+            <p class="card__row"><span class="card-tem">0</span> tem</p>
+            <p class="card__row"><span class="min">0</span> min</p>
+            <p class="card__row"><span class="max">0</span> max</p>
+            &lt;!&ndash;<p class="card__row"><span class="humedad">0</span> humedad</p>
+            <p class="card__row"><span class="velocidad">0</span> velociad del viento</p>
+            <p class="card__row"><span class="presion">0</span> Presión atmosférica</p>&ndash;&gt;
+        </div>
+        <div class="paragrafo">
+            <p class="card__row card-diatexto">lunes</p>
+            <p class="card__row card-fecha">fecha</p>
+            <p class="card__row"><span class="card-tem">0</span> tem</p>
+            <p class="card__row"><span class="min">0</span> min</p>
+            <p class="card__row"><span class="max">0</span> max</p>
+            &lt;!&ndash;<p class="card__row"><span class="humedad">0</span> humedad</p>
+            <p class="card__row"><span class="velocidad">0</span> velociad del viento</p>
+            <p class="card__row"><span class="presion">0</span> Presión atmosférica</p>&ndash;&gt;
+        </div>-->
     </div>
+    <div class="control-2">
+        <!--<div>
+            <p class="card__row card-fecha">12-03-2023</p>
+            <p class="card__row"><span class="card-tem">0</span> tem</p>
+            <p class="card__row"><span class="humedad">0</span> humedad</p>
+            <p class="card__row"><span class="velocidad">0</span> velociad del viento</p>
+            <p class="card__row"><span class="presion">0</span> Presión atmosférica</p>
+        </div>-->
+    </div>
+</div>
 
-    <script src="js/script.js"></script>
-  </body>
+
+</body>
 </html>
